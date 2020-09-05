@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class Solution {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
@@ -7,7 +6,6 @@ public class Solution {
         scan.close();
         System.out.println(consecutiveOnes(n));
     }
-    
     public static int consecutiveOnes(int n) {
         int count = 0;
         int max   = 0;
